@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+</head>
+<body>
+    <form>
+        <div>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="eaddress">Email Address:</label>
+    <input type="email" id="eaddress" name="eaddress"><br>
+    <label for="cnumber">Contact Number:</label>
+    <input type="tel" id="cnumber" name="cnumber"><br>
+    <label for="deliverydate">Preferred Delivery Date</label>
+    <input type="date" id="deliverydate" name="deliverydate"><br>
+        </div>
+    </form>
+
+    <div>
+        <p>Size:</p>
+        <form>
+            <input type="radio" name="Size" id="small" value="small">
+            <label for="small">Small</label>
+            <input type="radio" name="Size" id="medium" value="medium">
+            <label for="medium">Medium</label>
+            <input type="radio" name="Size" id="large" value="large">
+            <label for="large">Large</label><br>
+            <br>
+        </form>
+    </div>
+
+    <div>
+        <p>Flavor:</p>
+        <Form>
+            <input type="checkbox" id="" name="hawaiian">
+            <label for="hawaiian"> Hawaiian (PHP 150.00) &nbsp; </label>
+            <select> 
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <br>
+            <input type="checkbox" id="" name="pepperoni">
+            <label for="pepperoni"> Pepperoni (PHP 140.00)&nbsp; </label>
+            <select> 
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+            <br>
+            <input type="checkbox" id="" name="vegetable">
+            <label for="vegetable"> Vegetable (PHP 130.00)&nbsp</label>
+            <select> 
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+        </Form>
+    </div>
+    <br>
+    <div>
+        <label for="ccard">Credit Card Number:</label>
+        <input type="password" id="ccard" name="ccard"><br>
+        <label for="pin">Pin:</label>
+        <input type="password" id="pin" name="pin"><br>
+    </div>
+
+    <div>
+        <br>
+        <label for="textarea">Additional Note:</label><br>
+        <textarea id="anotes" rows="5" cols="50"></textarea> 
+    </div>
+
+    <div>
+        <br>
+        <input type="button" Value="Submit Order">
+    </div>
+</body>
+</html>
